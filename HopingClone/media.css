@@ -1,0 +1,120 @@
+/* Tablet size screen  */
+
+@media  screen and (max-width: 850px) {
+    
+    /* Footer */
+
+    .column{
+        grid-template-columns: 1fr;
+    }
+
+    /* Admission */
+
+    .career{
+        grid-template-columns: 1fr;
+        padding: 20px 20px;
+    }
+    .graphs{
+        display: none;
+    }
+
+    .graphs1{
+        display: none;
+    }
+
+    .details{
+        grid-row: inherit;
+    }
+
+    /* Mentors */
+
+    .mentors{
+    grid-template-columns: 1fr;
+    }
+
+    /* Companies */
+
+    #companies h1,
+    #companies p{
+    text-align: center;
+    padding: 0px 20px;
+    }
+
+    /* Main Section */
+
+    #main{
+        padding: 50px 10px;
+        gap: 20px;
+    }
+
+    /* Navbar */
+
+    #navbar{
+        display: none;
+    }
+}
+
+/* smart phone screen size */
+
+@media  screen and (max-width: 540px){
+     /* main section */
+
+     #main{
+        flex-direction: column;
+        padding: 50px 20px;
+     }
+}
+
+
+/* Mobile Screen upto 165 px */
+
+@media  screen and (max-width: 230px){
+
+    /* Mentors */
+    #mentors{
+        padding: 0 0 0 0;
+        
+    }
+
+    /* Admission */
+    .career{
+        padding: 0 0 ;
+        
+    }
+
+    .package1{
+        flex-wrap: wrap;
+    }
+
+    #companies h1,
+#companies p{
+    text-align: left;
+    padding: 0px 0%;
+}
+
+#companies h1{
+    font-size: 30px;
+}
+
+.heading{
+    font-size: 2rem;
+}
+
+#mentors h1{
+    font-size: 1.5rem;
+}
+
+#foot{
+    padding: 0px;
+    list-style: none;
+}
+
+.column{
+    padding: 10px 5px;
+}
+
+.column li{
+    font-size: 14px;
+}
+    
+}

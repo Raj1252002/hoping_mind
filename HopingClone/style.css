@@ -1,0 +1,258 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    list-style: none;
+    color: rgb(1, 148, 1);
+    background-color: #f5f1f1;
+    font-weight: 600;
+    font-size: 1.02rem;
+    position: sticky;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-item{
+    display: flex;
+}
+
+.nav-item li{
+    margin-right: 30px;
+}
+.nav-item li:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    color: rgb(226, 23, 23);
+}
+
+/* Main Section */
+
+#main{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    color: #fff;
+    background-image: url(images/background-image.png);
+}
+.contents{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    font-size: 3.5rem;
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f1f1;
+    border-radius: 15px;
+    padding: 20px;
+    font-weight: 520;
+    color: black;
+    
+}
+
+.form:hover{
+    transform: scale(1.01);
+    border: 1px solid black;
+    box-shadow: 3px 3px rgba(12, 12, 12, 0.993);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+    padding: 7px 0px 7px 5px;
+    margin: 5px 0 8px 0px;
+    border: 1px solid rgb(0, 121, 0);
+}
+label{
+    color: rgb(1, 117, 1);
+}
+
+button[type="submit"]{
+    background-color: green;
+    padding: 10px 0px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(153, 173, 153);
+}
+
+/* Placements of Students */
+
+#package{
+    background-color: green;
+    color: #fff;
+}
+
+.package1{
+    display :flex;
+    justify-content: space-around;
+}
+.package1 h1{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: -10px;
+    font-size: 2.5rem;
+}
+
+/* Companies */
+
+#companies{
+    background-color: #f5f1f1;
+    padding: 15px 10px;
+}
+#companies h1,
+#companies p{
+    padding: 0px 20%;
+    text-align: center;
+}
+
+#companies h1{
+    font-size: 40px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px 0 0 0;
+}
+.image img:hover{
+    transform: scale(1.05);
+}
+
+/* mentors */
+
+#mentors{
+    /* padding: 30px 0px 0 0px; */
+    background-color: rgb(30, 151, 47);
+    padding: 20px 50px;
+}
+
+#mentors h1{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+
+.mentors{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-top: 40px;
+    color: #ffffffc7;
+}
+
+.container{
+    background-color: rgba(3, 128, 34, 0.973);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.container:hover,
+.details:hover,
+.column:hover{
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+    transform: scale(1.01);
+}
+
+.full{
+    display: flex;
+    justify-content: space-between;
+}
+
+.full img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.name h3{
+    color: rgb(211, 211, 7);
+    margin: 5px 0 0 0;
+}
+
+
+/* Admission */
+
+.career{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px 100px;
+    background-color: #f0e7e7;
+}
+
+.details{
+    background-color: #e6dcdce1;
+    padding: 10px 20px;
+    border-radius: 15px;
+    grid-row: auto;
+}
+
+.graphs{
+   grid-row: span 2;
+    justify-self: center;
+}
+
+.graphs1{
+    grid-row: span 2;
+    justify-self: center;
+}
+
+/* Footter */
+
+#foot{
+    background-color: green;
+    color: #fff;
+    padding:20px;
+}
+
+.column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    background-color: rgba(37, 128, 37, 0.781);
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 15px; */
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+
+.contact a{
+    margin-right: 10px;
+}
+.contact a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
